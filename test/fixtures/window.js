@@ -1,4 +1,4 @@
-const {URL} = require('url');
+'use strict';
 
 module.exports = function (initialURI = 'https://github.com') {
 	this.location = new URL(initialURI);
